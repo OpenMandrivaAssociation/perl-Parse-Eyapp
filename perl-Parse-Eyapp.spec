@@ -1,5 +1,5 @@
 %define upstream_name    Parse-Eyapp
-%define upstream_version 1.170
+%define upstream_version 1.171
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -50,6 +50,5 @@ rm -rf %buildroot
 %{_mandir}/man3/*
 %{_bindir}/eyapp
 %{_bindir}/treereg
-%{_bindir}/vgg
 %{perl_vendorlib}/Parse
 
