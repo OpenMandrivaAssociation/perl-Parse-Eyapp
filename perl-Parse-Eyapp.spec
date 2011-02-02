@@ -1,5 +1,5 @@
 %define upstream_name    Parse-Eyapp
-%define upstream_version 1.178
+%define upstream_version 1.179
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
