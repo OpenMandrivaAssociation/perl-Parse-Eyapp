@@ -1,14 +1,14 @@
 %define upstream_name    Parse-Eyapp
-%define upstream_version 1.181
+%define upstream_version 1.182
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Version:    %perl_convert_version 1.182
+Release:    1
 Summary:    Bottom up parser generator
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Parse/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://www.cpan.org/modules/by-module/Parse/Parse-Eyapp-1.182.tar.gz
 
 BuildRequires: perl(Data::Dumper)
 BuildRequires: perl(List::Util)
@@ -119,3 +119,4 @@ rm -rf %buildroot
 
 * Sun Jan 17 2010 cpan2dist 1.154-1mdv
 - initial mdv release, generated with cpan2dist
+
