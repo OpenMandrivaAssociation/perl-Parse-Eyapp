@@ -1,3 +1,4 @@
+%define debug_package %{nil}
 %define upstream_name    Parse-Eyapp
 %define upstream_version 1.182
 
