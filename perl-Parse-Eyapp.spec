@@ -2,13 +2,13 @@
 %define upstream_version 1.182
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version 1.182
+Version:    %perl_convert_version %{upstream_version}
 Release:    1
 Summary:    Bottom up parser generator
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Parse/Parse-Eyapp-1.182.tar.gz
+Source0:    http://www.cpan.org/modules/by-module/Parse/Parse-Eyapp-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Data::Dumper)
 BuildRequires: perl(List::Util)
