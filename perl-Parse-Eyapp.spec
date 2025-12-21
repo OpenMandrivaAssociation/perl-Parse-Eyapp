@@ -10,6 +10,7 @@ Group:      Development/Perl
 Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Parse/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires: perl(Data::Dumper)
 BuildRequires: perl(List::Util)
 BuildRequires: perl(Pod::Usage)
